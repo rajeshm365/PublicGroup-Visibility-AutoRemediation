@@ -27,7 +27,7 @@ Bank policy forbids public Groups or Teams. While sensitivity labels normally bl
 
 ```mermaid
 flowchart TD
-    A[Azure Automation - scheduled runbook] --> B[Hybrid Worker VM]
+    A[Azure Automation - scheduled runbook/Task Schedule] --> B[Hybrid Worker/Azure VM]
     B --> PS[Public Group Remediation ps1]
 
     PS --> KV[Azure Key Vault - service account secrets]
